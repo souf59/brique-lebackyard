@@ -22,6 +22,7 @@ public class BriquelebackyardApplication implements CommandLineRunner {
 			produitDao.save(new Produit(null, "Smartphone", 500.00));
 			produitDao.save(new Produit(null, "Printer", 200.00));
 			produitDao.save(new Produit(null, "PC", 100.00));
+			produitDao.save(new Produit(null, "ordinateur", 100.00));
 		
 		
 	}
